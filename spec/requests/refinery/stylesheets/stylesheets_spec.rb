@@ -2,6 +2,7 @@ require "spec_helper"
 
 describe Refinery do
   describe "Stylesheets" do
+
     let(:stylesheet) { FactoryGirl.create(:stylesheet, content: '// comments' ) }
     login_refinery_user
     before do
