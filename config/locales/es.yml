@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      stylesheets:
+        title: Stylesheets
+#        article: masculino/femenino
+    stylesheets:
+      admin:
+        stylesheets:
+          actions:
+            create_new: Crear nuevo stylesheet
+            reorder: Reordenar stylesheets
+            reorder_done: Reordenación de stylesheets completada
+          records:
+            title: Stylesheets
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay stylesheets todavía. Pulsa en "Crear nuevo Stylesheet" para crear tu primer stylesheet.
+          stylesheet:
+            view_live_html: Ver este stylesheet como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este stylesheet
+            delete: Borrar este stylesheet para siempre
+      stylesheets:
+        show:
+          other: Otros stylesheets
+  activerecord:
+    attributes:
+      'refinery/stylesheets/stylesheet':
+        name: Name
+        content: Content
+        style_type: style_type

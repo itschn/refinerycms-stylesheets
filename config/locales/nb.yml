@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      stylesheets:
+        title: Stylesheets
+    stylesheets:
+      admin:
+        stylesheets:
+          actions:
+            create_new: Lag en ny Stylesheet
+            reorder: Endre rekkefølgen på Stylesheets
+            reorder_done: Ferdig å endre rekkefølgen Stylesheets
+          records:
+            title: Stylesheets
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Stylesheets enda. Klikk på "Lag en ny Stylesheet" for å legge til din første stylesheet.
+          stylesheet:
+            view_live_html: Vis hvordan denne stylesheet ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne stylesheet
+            delete: Fjern denne stylesheet permanent
+      stylesheets:
+        show:
+          other: Andre Stylesheets
+  activerecord:
+    attributes:
+      'refinery/stylesheets/stylesheet':
+        name: Name
+        content: Content
+        style_type: style_type

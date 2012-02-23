@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      stylesheets:
+        title: Stylesheets
+    stylesheets:
+      admin:
+        stylesheets:
+          actions:
+            create_new: Add New Stylesheet
+            reorder: Reorder Stylesheets
+            reorder_done: Done Reordering Stylesheets
+          records:
+            title: Stylesheets
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Stylesheets yet. Click "Add New Stylesheet" to add your first stylesheet.
+          stylesheet:
+            view_live_html: View this stylesheet live <br/><em>(opens in a new window)</em>
+            edit: Edit this stylesheet
+            delete: Remove this stylesheet forever
+      stylesheets:
+        show:
+          other: Other Stylesheets
+  activerecord:
+    attributes:
+      'refinery/stylesheets/stylesheet':
+        name: Name
+        content: Content
+        style_type: style_type

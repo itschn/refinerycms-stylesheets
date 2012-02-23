@@ -1,0 +1,29 @@
+lolcat:
+  refinery:
+    plugins:
+      stylesheets:
+        title: Stylesheets
+    stylesheets:
+      admin:
+        stylesheets:
+          actions:
+            create_new: CREATE NEW Stylesheet
+            reorder: REORDR Stylesheets
+            reorder_done: DUN REORDERIN Stylesheets
+          records:
+            title: Stylesheets
+            sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+            no_items_yet: THAR R NO Stylesheets YET. CLICK "CREATE NEW Stylesheet" 2 ADD UR FURST stylesheet.
+          stylesheet:
+            view_live_html: VIEW DIS stylesheet LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+            edit: EDIT DIS stylesheet
+            delete: REMOOV DIS stylesheet FOREVR
+      stylesheets:
+        show:
+          other: OTHR Stylesheets
+  activerecord:
+    attributes:
+      'refinery/stylesheets/stylesheet':
+        name: NAME
+        content: CONTENT
+        style_type: style_type

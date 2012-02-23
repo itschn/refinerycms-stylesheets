@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      stylesheets:
+        title: Stylesheets
+    stylesheets:
+      admin:
+        stylesheets:
+          actions:
+            create_new: Maak een nieuwe Stylesheet
+            reorder: Wijzig de volgorde van de Stylesheets
+            reorder_done: Klaar met het wijzingen van de volgorde van de Stylesheets
+          records:
+            title: Stylesheets
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Stylesheets. Druk op 'Maak een nieuwe Stylesheet' om de eerste aan te maken.
+          stylesheet:
+            view_live_html: Bekijk deze stylesheet op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze stylesheet
+            delete: Verwijder deze stylesheet voor eeuwig
+      stylesheets:
+        show:
+          other: Andere Stylesheets
+  activerecord:
+    attributes:
+      'refinery/stylesheets/stylesheet':
+        name: Name
+        content: Content
+        style_type: style_type
