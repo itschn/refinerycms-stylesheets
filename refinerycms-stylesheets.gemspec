@@ -9,7 +9,9 @@ Gem::Specification.new do |s|
   s.summary           = 'Stylesheets engine for Refinery CMS'
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
-
+  s.authors           = ["Sharespost Developers"]
+  s.email             = ["bayareadev@sharespost.com"]
+  s.homepage          = "https://github.com/sharespost/refinerycms-stylesheets"
   # Runtime dependencies
   s.add_dependency             'refinerycms-core',    '~> 2.0.0'
 
