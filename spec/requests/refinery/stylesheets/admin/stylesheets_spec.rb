@@ -31,7 +31,7 @@ describe Refinery do
             it "should succeed" do
               fill_in "Name", :with => "This is a test of the first string field"
               fill_in "stylesheet_content", :with => "//test contents"
-              fill_in "style_type", :with => "css"
+              fill_in "Style Type", :with => "css"
               click_button "Save"
 
               page.should have_content("'This is a test of the first string field' was successfully added.")
