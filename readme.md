@@ -1,10 +1,18 @@
 # Stylesheets engine for Refinery CMS.
+This gem add capability to manage custom stylesheets to a Refinery CMS.
 
-## How to build this engine as a gem
+# Install
+In your Gemfile
+  gem refinerycms-stylesheets, git: 'git://github.com/sharespost/refinerycms-stylesheets.git'
+  bundle
+  rails g refinery:stylesheets
+  rake db:migrate
 
-    cd vendor/engines/stylesheets
-    gem build refinerycms-stylesheets.gemspec
-    gem install refinerycms-stylesheets.gem
+# How to use
+ 1 Log in to the CMS.
+ 2 Add a new stylesheet.
 
-    # Sign up for a http://rubygems.org/ account and publish the gem
-    gem push refinerycms-stylesheets.gem
+ 3 Add this line to the top of your application controller
+  helper Refinery::Stylesheets::Engine.helpers
+ 4 And reference the custom stylesheets in your views or layout
+  <%= css_for_refinery %>
