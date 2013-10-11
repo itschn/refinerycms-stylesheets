@@ -1,6 +1,6 @@
 module Refinery
   module Stylesheets
-    class StylesheetsController < ::ApplicationController
+    class StylesheetsController < ::ActionController::Base
       caches_page :show
       layout nil
       def show
